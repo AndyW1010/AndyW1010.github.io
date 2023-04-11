@@ -16,7 +16,8 @@ custom_js:
 
 
 ## Search The Data & Methods
-<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/chart1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/chart2.json" style="width: 100%"></vegachart>
 
 
 ```
