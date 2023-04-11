@@ -16,7 +16,7 @@ custom_js:
 
 
 ## Search The Data & Methods
-
+<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
 Below is where we can put some links to both the data and the analysis code as buttons:
 
 ```
