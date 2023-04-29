@@ -46,7 +46,7 @@ The x-axis of the chart displays the name of each disease, while the y-axis disp
 The color of each bar represents the number of cases, with a color scale that goes from light blue (low cases) to dark blue (high cases). The chart is customized with font sizes, axis labels, and a title.
 Overall, this chart is a useful way to visualize and compare the number of reported cases for different diseases, which can help identify patterns and trends in public health data.
 
-![avatar](assets/pngs/disease-burden-to-communicable-diseases-vs-gdp.png)
+![avatar](/assets/pngs/disease-burden-to-communicable-diseases-vs-gdp.png)
 <div class="middle">
 {% include elements/button.html link="https://ourworldindata.org/grapher/disease-burden-to-communicable-diseases-vs-gdp" text="The Data" %}
 </div>
