@@ -28,7 +28,7 @@ netid:jiazhiw2
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/AndyW1010/is445_final_part3" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/AndyW1010/is445_final_part3/blob/main/Andy-Wang-finalpart3.ipynb" text="The Analysis" %}
 </div>
 
 
@@ -49,7 +49,7 @@ The line chart displays the number of cases for each disease over time. The x-ax
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/AndyW1010/is445_final_part3" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/AndyW1010/is445_final_part3/blob/main/Andy-Wang-finalpart3.ipynb" text="The Analysis" %}
 </div>
 
 I create a bar chart using the Altair library in Python, which contains case counts and rates for selected communicable diseases—listed in the data dictionary—that met the surveillance case definition for that disease and was reported for California residents, by disease, county, year, and sex.
@@ -61,7 +61,7 @@ Overall, this chart is a useful way to visualize and compare the number of repor
 ## Contextual visualization 2
 ### Disease burden due to communicable diseases vs. GDP per capita, 2019
 ![avatar](/assets/pngs/disease-burden-to-communicable-diseases-vs-gdp.png)
-<div class="middle">
+<div class="center">
 {% include elements/button.html link="https://ourworldindata.org/grapher/disease-burden-to-communicable-diseases-vs-gdp" text="Visualization Source" %}
 </div>
 The graph shows the relationship between the burden of communicable diseases and the Gross Domestic Product (GDP) per capita in different countries. We can compare the impact of communicable diseases in Illinois to the impact in other countries. This may provide insights into the severity of communicable diseases in Illinois and how it compares to other regions globally. Additionally, the visualization can help illustrate the relationship between disease burden and economic indicators such as GDP per capita.
