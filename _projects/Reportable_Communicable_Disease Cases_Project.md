@@ -20,7 +20,7 @@ netid:jiazhiw2
 
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard2.json" style="width: 100%"></vegachart>
 
 
 
