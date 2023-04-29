@@ -11,29 +11,30 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# Reportable Communicable Disease Cases in Illinois,2011-2017
 
 Group Member: Andy(Jiazhi) Wang 
 netid:jiazhiw2
 
-We can use a vegachart HTML tag like so:
+
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard.json" style="width: 100%"></vegachart>
 
 
 
+The interactive dashboard I have created allows non-experts to easily explore and visualize the number of reported cases for different diseases over time. The bar chart displays the total number of cases for each disease, with the option to highlight a specific disease by hovering over it. In the barchart, the highlighted bar is colored in steel blue and the non-highlighted bars are grey.The line chart shows the number of cases per year, with the option to filter by disease type. By selecting a disease in the bar chart, the line chart will update to display only that disease's cases over time. This provides an easy way to see how the number of cases has changed for a specific disease compared to others in the dataset. Additionally, hovering over a bar displays the disease name and total number of cases, providing users with more detailed information.
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
 
-## Search The Data & Methods
 
-Below is where we can put some links to both the data and the analysis code as buttons:
 
+## Contextual visualizations
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/chart_1.json" style="width: 100%"></vegachart>
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://data.chhs.ca.gov/dataset/infectious-disease/resource/75019f89-b349-4d5e-825d-8b5960fc028c" text="The Data" %}
 </div>
 
 <div class="right">
@@ -41,13 +42,5 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 
-<!-- these are written in a combo of html and liquid --> 
 
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
-</div>
 
