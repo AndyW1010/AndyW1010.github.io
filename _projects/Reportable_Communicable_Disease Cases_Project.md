@@ -41,6 +41,13 @@ The interactive dashboard I have created allows non-experts to easily explore an
 {% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
 </div>
 
+I create a bar chart using the Altair library in Python, which contains case counts and rates for selected communicable diseases—listed in the data dictionary—that met the surveillance case definition for that disease and was reported for California residents, by disease, county, year, and sex.
+The x-axis of the chart displays the name of each disease, while the y-axis displays the number of reported cases for each disease.
+The color of each bar represents the number of cases, with a color scale that goes from light blue (low cases) to dark blue (high cases). The chart is customized with font sizes, axis labels, and a title.
+Overall, this chart is a useful way to visualize and compare the number of reported cases for different diseases, which can help identify patterns and trends in public health data.
 
-
+![avatar](assets/pngs/disease-burden-to-communicable-diseases-vs-gdp.png)
+<div class="middle">
+{% include elements/button.html link="https://ourworldindata.org/grapher/disease-burden-to-communicable-diseases-vs-gdp" text="The Data" %}
+</div>
 
