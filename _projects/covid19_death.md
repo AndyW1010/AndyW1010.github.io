@@ -1,7 +1,7 @@
 ---
 name: Covid-19 Death Cases in Illinois 
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/1.jpeg
+image: assets/pngs/cancer.jpg
 description: This is a "showcase" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
