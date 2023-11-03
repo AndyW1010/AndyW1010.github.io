@@ -13,7 +13,7 @@ custom_js:
 # Covid-19 Death Cases in Illinois 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard_atlas.json" style="width: 100%"></vegachart>
-<vegachart schema-url="{{ site.baseurl }}/assets/json/new_atlas.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/random.json" style="width: 100%"></vegachart>
 
 ### Analysis Overview
 
